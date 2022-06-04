@@ -1,3 +1,7 @@
+.detailsTechContainer {
+  display: flex;
+}
+
 .techCard
 {
   max-width: 6rem;
@@ -10,4 +14,13 @@
   background: rgb(18, 18, 18);
   box-shadow: rgb(0 0 0 / 20%) 0px 7px 29px 0px;
   border-radius: 10px;
+}
+
+.techCard img {
+  width: 80%;
+  height: auto;
+}
+
+.techCard h6 {
+  font-size: 0.7rem;
 }
