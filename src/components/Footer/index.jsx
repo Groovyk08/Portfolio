@@ -25,13 +25,13 @@ const Footer = () => {
                     </Col>
                     <Col className="p-2" sm>
                         <Link to="/profiles/github">
-                            <FaGithub className="social-icon" />
+                            <FaGithub className="socialIcon" />
                         </Link>
                         <Link to="/profiles/medium">
-                            <FaMedium className="social-icon" />
+                            <FaMedium className="socialIcon" />
                         </Link>
                         <Link to="/profiles/linkedin">
-                            <FaLinkedin className="social-icon" />
+                            <FaLinkedin className="socialIcon" />
                         </Link>
                     </Col>
                 </Row>

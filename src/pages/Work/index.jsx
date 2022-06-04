@@ -1,7 +1,7 @@
 function Work() {
     return (
         <div>
-            <h1> Work page </h1>
+            <h1> Projects </h1>
         </div>
     );
 }
