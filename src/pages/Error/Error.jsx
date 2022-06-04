@@ -2,7 +2,7 @@ import '../../styles/Error.css';
 function Error() {
     return (
         <div>
-            <h1>ERROR 404</h1>
+            <h1>Page Not Found.</h1>
         </div>
     );
 }

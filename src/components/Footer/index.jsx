@@ -1,11 +1,45 @@
 import '../Footer/Footer.css';
+// import React, { useEffect, useState } from 'react';
+import {
+    Col,
+    Row,
+    Spinner,
+    OverlayTrigger,
+    Tooltip,
+    Stack,
+} from 'react-bootstrap';
 
-function Footer() {
+import { FaGithub, FaMedium, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+
+const Footer = () => {
+    //const [visits, setVisits] = useState(0);
+    // const { isLoading, error, sendRequest } = useHttpClient();
+
     return (
-        <div>
-            <h1>Footer</h1>
+        <div id="footer">
+            <footer>
+                <Row>
+                    <Col sm>
+                        <h1>Let's Connect</h1>
+                    </Col>
+                    <Col className="p-2" sm>
+                        <Link to="/profiles/github">
+                            <FaGithub className="social-icon" />
+                        </Link>
+                        <Link to="/profiles/medium">
+                            <FaMedium className="social-icon" />
+                        </Link>
+                        <Link to="/profiles/linkedin">
+                            <FaLinkedin className="social-icon" />
+                        </Link>
+                    </Col>
+                </Row>
+                <span className="divider"></span>
+                <Row className="extras"></Row>
+            </footer>
         </div>
     );
-}
+};
 
 export default Footer;

@@ -1,5 +1,6 @@
 import '../Header/Header.css';
 import 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Header() {
@@ -7,11 +8,12 @@ function Header() {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand>Navbar</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <Nav.Link to="/">Home</Nav.Link>
+                        <Nav.Link to="/Home">Work</Nav.Link>
+                        <Nav.Link to="/About">About Me</Nav.Link>
+                        <Nav.Link to="/Contact">Contact</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
