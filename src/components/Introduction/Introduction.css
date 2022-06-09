@@ -1,7 +1,11 @@
 .introductionImg img {
-  width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 50rem;
+}
+
+a {
+text-decoration: none;
 }
 
 .emailContact {

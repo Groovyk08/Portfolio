@@ -20,7 +20,7 @@ function Introduction() {
                                 <p>Web Developper Junior</p>
                             </div>
                             <div>
-                                <h6>Mail Me</h6>
+                                <h6>Email Me</h6>
                                 <Link to="mailto:kitokoludovic@gmail.com">
                                     <span className="emailContact">
                                         kitokoludovic@gmail.com

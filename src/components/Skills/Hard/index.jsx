@@ -1,6 +1,6 @@
-import '../Skills/Skills.css';
+import '../Hard/HardSkills.css';
 
-function Skills() {
+function HardSkills() {
     return (
         <div>
             <div className="container">
@@ -81,4 +81,4 @@ function Skills() {
     );
 }
 
-export default Skills;
+export default HardSkills;

@@ -1,4 +1,6 @@
-function Work() {
+import '../../styles/Projects.css';
+
+function Projects() {
     return (
         <div>
             <h1> Projects </h1>
@@ -6,4 +8,4 @@ function Work() {
     );
 }
 
-export default Work;
+export default Projects;

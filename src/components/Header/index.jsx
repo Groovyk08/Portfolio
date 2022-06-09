@@ -1,19 +1,21 @@
 import '../Header/Header.css';
 import 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+// import navPic from '../../assets/navPic.jpeg';
 
 function Header() {
     return (
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand>Navbar</Navbar.Brand>
+                    <Navbar.Brand>
+                        {/* <img src={navPic} alt="navPic" /> */}
+                    </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link to="/">Home</Nav.Link>
-                        <Nav.Link to="/Home">Work</Nav.Link>
-                        <Nav.Link to="/About">About Me</Nav.Link>
-                        <Nav.Link to="/Contact">Contact</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/Home">Work</Nav.Link>
+                        <Nav.Link href="/About">About Me</Nav.Link>
+                        <Nav.Link href="/Contact">Contact</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

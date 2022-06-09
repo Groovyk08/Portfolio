@@ -1,14 +1,14 @@
 import '../../styles/About.css';
 import Introduction from '../../components/Introduction';
-import Skills from '../../components/Skills';
 import Experiences from '../../components/Experiences';
+import HardSkills from '../../components/Skills/Hard';
 
 function About() {
     return (
         <div>
             <Introduction />
             <Experiences />
-            <Skills />
+            <HardSkills />
         </div>
     );
 }
