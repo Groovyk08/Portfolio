@@ -17,13 +17,14 @@ const Footer = () => {
     // const { isLoading, error, sendRequest } = useHttpClient();
 
     return (
-        <div id="footer">
+        <div>
             <footer>
                 <Row>
+                    <span className="divider"></span>
                     <Col sm>
                         <h1>Let's Connect</h1>
                     </Col>
-                    <Col className="p-2" sm>
+                    <Col className="p-2" col-sm>
                         <Link to="/profiles/github">
                             <FaGithub className="socialIcon" />
                         </Link>
@@ -35,7 +36,6 @@ const Footer = () => {
                         </Link>
                     </Col>
                 </Row>
-                <span className="divider"></span>
                 <Row className="extras"></Row>
             </footer>
         </div>

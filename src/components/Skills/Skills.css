@@ -1,0 +1,26 @@
+.detailsTechContainer {
+  display: flex;
+}
+
+.techCard
+{
+  max-width: 6rem;
+  max-height: 7rem;
+  min-width: 7rem;
+  min-height: 7rem;
+  padding: 1.5rem;
+  margin: 2%;
+  text-align: center;
+  background: rgb(18, 18, 18);
+  box-shadow: rgb(0 0 0 / 20%) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.techCard img {
+  width: 80%;
+  height: auto;
+}
+
+.techCard h6 {
+  font-size: 0.7rem;
+}

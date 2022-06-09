@@ -1,0 +1,19 @@
+.introductionImg img {
+  width: 50%;
+  height: auto;
+  border-radius: 50rem;
+}
+
+.emailContact {
+  background: rgb(56, 97, 99);
+  padding: 0.2rem 0.7rem;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.socialIcon {
+  color: #FFF;
+  font-size: 2rem;
+  margin: 0px 2%;
+}
