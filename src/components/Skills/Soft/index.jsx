@@ -1,6 +1,6 @@
 import '../Soft/SoftSkills.css';
 
-function SoftSkills() {
+function SoftSkills(props) {
     return (
         <div>
             <div className="container">

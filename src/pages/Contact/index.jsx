@@ -1,7 +1,10 @@
+import FormContact from '../../components/Form';
+import '../../styles/Contact.css';
+
 function Contact() {
     return (
         <div>
-            <h1>Contact Me Page</h1>
+            <FormContact />
         </div>
     );
 }

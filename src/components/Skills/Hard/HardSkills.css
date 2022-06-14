@@ -1,7 +1,20 @@
-.detailsTechContainer {
-  display: flex;
+.details {
+  margin: 5%;
 }
 
+.detailsTechTitle {
+  color: #fc0;
+}
+
+.detailsTechContainer {
+  margin: 5%;
+  padding: 0 1rem;
+  max-height: 20rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* Hard skills cards style  */
 .techCard
 {
   max-width: 6rem;

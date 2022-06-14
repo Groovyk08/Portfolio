@@ -1,12 +1,14 @@
 import '../Hard/HardSkills.css';
 
-function HardSkills() {
+function HardSkills(props) {
     return (
         <div>
             <div className="container">
                 <div className="details">
                     <div className="detailsTech">
-                        <h2 className="detailsTechTitle">HARD SKILLS</h2>
+                        <h2 className="detailsTechTitle">
+                            Tools, Languages & Frameworks/Libraries
+                        </h2>
                         <div className="detailsTechContainer">
                             <div className="mt-5 row">
                                 <div className="col">
@@ -59,6 +61,7 @@ function HardSkills() {
                                         <img
                                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                                             alt="GITHUB"
+                                            style={{ backgroundColor: '#FFF' }}
                                         />
                                         <h6 className="mt-2">GITHUB</h6>
                                     </div>

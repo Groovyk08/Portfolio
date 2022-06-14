@@ -3,7 +3,7 @@ import { FaGithub, FaMedium, FaLinkedin } from 'react-icons/fa';
 import profilePic from '../../assets/profilePic.jpeg';
 import '../Introduction/Introduction.css';
 
-function Introduction() {
+function Introduction(props) {
     return (
         <div>
             <div className="container">
@@ -27,7 +27,24 @@ function Introduction() {
                                     </span>
                                 </Link>
                             </div>
-                            <div className="introductionLinks"></div>
+                            <div className="introductionLinks">
+                                <div className="row">
+                                    <div className="col">
+                                        <Link to="/projects">
+                                            <button className="work btn-primary">
+                                                Work
+                                            </button>
+                                        </Link>
+                                    </div>
+                                    <div className="col">
+                                        <Link to="/contact">
+                                            <button className="contact btn-success">
+                                                Contact
+                                            </button>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="social">
                                 <h6>Follow Me on</h6>
                                 <div>
@@ -44,6 +61,7 @@ function Introduction() {
                             </div>
                         </div>
                     </div>
+                    <hr></hr>
                     <div className="introductionBrief">
                         <p> Hi there ! Thank you for visiting my portfolio.</p>
                         <p>

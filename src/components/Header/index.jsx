@@ -3,7 +3,7 @@ import 'react-bootstrap';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 // import navPic from '../../assets/navPic.jpeg';
 
-function Header() {
+function Header(props) {
     return (
         <div>
             <Navbar bg="dark" variant="dark">
@@ -13,7 +13,7 @@ function Header() {
                     </Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/Home">Work</Nav.Link>
+                        <Nav.Link href="/Projects">Projects</Nav.Link>
                         <Nav.Link href="/About">About Me</Nav.Link>
                         <Nav.Link href="/Contact">Contact</Nav.Link>
                     </Nav>
