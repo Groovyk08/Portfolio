@@ -1,0 +1,28 @@
+.projectCard {
+  width: 100%;
+  height: auto;
+  background: cadetblue;
+  border-radius: 5px;
+}
+
+.cardImg {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.techUsed {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem 0.2rem;
+  border-radius: 20px;
+  background: #386163;
+}
+.techUsed img {
+  width: 10%;
+  height: auto;
+}
+
+.textCenter {
+  text-align: center;
+}

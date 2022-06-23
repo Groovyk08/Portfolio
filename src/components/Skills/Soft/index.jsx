@@ -4,7 +4,7 @@ function SoftSkills(props) {
     return (
         <div>
             <div className="container">
-                <h2> Why Hire Me ? </h2>
+                <h2 className="strengthsTitle"> Why Hire Me ? </h2>
                 <div className="row strengths">
                     <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="strengthsItem">

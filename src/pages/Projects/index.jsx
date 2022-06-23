@@ -1,9 +1,10 @@
+import ShowProjects from '../../components/Projects';
 import '../../styles/Projects.css';
 
 function Projects() {
     return (
         <div>
-            <h1> Projects </h1>
+            <ShowProjects />
         </div>
     );
 }

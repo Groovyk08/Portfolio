@@ -17,7 +17,7 @@ function Introduction(props) {
                         <div className="introduction__short mt-4 col-sm">
                             <div>
                                 <h1>Ludovic Kitoko</h1>
-                                <p>Web Developper Junior</p>
+                                <p>Frontend Developper Junior</p>
                             </div>
                             <div>
                                 <h6>Email Me</h6>

@@ -1,7 +1,10 @@
 .introductionContent {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  width: 50%;
+  height: auto;
 }
 
 .picture {
@@ -10,3 +13,24 @@
   border-radius: 50rem;
 }
 
+.resume {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+  height: auto;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+
+  .introductionContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+  
+}

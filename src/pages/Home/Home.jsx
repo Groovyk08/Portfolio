@@ -12,24 +12,20 @@ function Home() {
                 <div className="introduction">
                     <div className="row">
                         <div className="introductionContent col-sm">
-                            <div>
-                                <h6>Hey!</h6>
-                                <span>I'm Ludovic Kitoko</span>
-                                <h2>Web Developper Junior</h2>
-                                <p>I have a passion for technology.</p>
-                                <div className="resume">
-                                    <Link to="/">
-                                        <Button variant="danger">
-                                            Email Me
-                                        </Button>
-                                    </Link>
-                                    <Link to="/">
-                                        <Button variant="primary">
-                                            <span>{BsDownload}</span>
-                                            Resume
-                                        </Button>
-                                    </Link>
-                                </div>
+                            <h6>Hey!</h6>
+                            <span>I'm Ludovic Kitoko</span>
+                            <h2>Frontend Developper Junior</h2>
+                            <p>I have a passion for technology.</p>
+                            <div className="resume">
+                                <Link to="/">
+                                    <Button variant="danger">Email Me</Button>
+                                </Link>
+                                <Link to="/">
+                                    <Button variant="primary">
+                                        <span>{BsDownload}</span>
+                                        Resume
+                                    </Button>
+                                </Link>
                             </div>
                         </div>
                         <div className=" col-sm">
