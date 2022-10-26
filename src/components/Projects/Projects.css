@@ -1,7 +1,10 @@
+.projectHeader {
+  text-align: center;
+}
+
 .projectCard {
-  width: 100%;
+  width: inherit;
   height: auto;
-  background: cadetblue;
   border-radius: 5px;
 }
 
@@ -9,6 +12,11 @@
   width: 100%;
   height: auto;
   background-color: black;
+}
+
+.cardBody {
+  flex: 1 1 auto;
+  padding: 1rem;
 }
 
 .techUsed {
@@ -21,6 +29,10 @@
 .techUsed img {
   width: 10%;
   height: auto;
+}
+
+.cardFooter {
+  padding: 0.5rem 1rem;
 }
 
 .textCenter {

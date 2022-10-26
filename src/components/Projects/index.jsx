@@ -11,7 +11,7 @@ function ShowProjects() {
             <div className="container">
                 <div className="row">
                     <div className="mt-5 col-md-6 col-sm-6">
-                        <div className="projectCard">
+                        <div className="projectCard bg-dark">
                             <img
                                 className="cardImg"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
@@ -20,7 +20,7 @@ function ShowProjects() {
                             <div className="cardBody">
                                 <div className="row">
                                     <div className="col">
-                                        <h5>Portfolio project</h5>
+                                        <h5>Portfolio</h5>
                                     </div>
                                     <div className="col">
                                         <div className="techUsed">
@@ -39,7 +39,7 @@ function ShowProjects() {
                             <div className="cardFooter">
                                 <div className="cardLink row">
                                     <div className="textCenter col">
-                                        <Link to="/https://github.com/Groovyk08/Portfolio">
+                                        <Link to="https://groovyk08.github.io/Portfolio/">
                                             Preview on GitHub
                                         </Link>
                                     </div>
@@ -47,12 +47,51 @@ function ShowProjects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="mt-5 col-md-6 col-sm-6">
-                        <div className="projectCard">
+                        <div className="projectCard bg-dark">
                             <img
                                 className="cardImg"
                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                                alt="portfolio"
+                                alt="OhMyFood"
+                            />
+                            <div className="cardBody">
+                                <div className="row">
+                                    <div className="col">
+                                        <h5>Oh My Food</h5>
+                                    </div>
+                                    <div className="col">
+                                        <div className="techUsed">
+                                            <img
+                                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                                alt="HTML"
+                                            />
+                                            <img
+                                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                                alt="CSS"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="cardFooter">
+                                <div className="cardLink row">
+                                    <div className="textCenter col">
+                                        <Link to="https://groovyk08.github.io/OhMyFood_MobileFirst/">
+                                            Preview on GitHub
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="mt-5 col-md-6 col-sm-6">
+                        <div className="projectCard bg-dark">
+                            <img
+                                className="cardImg"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="kasaProject"
                             />
                             <div className="cardBody">
                                 <div className="row">
@@ -72,7 +111,7 @@ function ShowProjects() {
                             <div className="cardFooter">
                                 <div className="cardLink row">
                                     <div className="textCenter col">
-                                        <Link to="https://github.com/Groovyk08/ReactApp_KASA">
+                                        <Link to="https://groovyk08.github.io/ReactApp_KASA/">
                                             Preview on GitHub
                                         </Link>
                                     </div>

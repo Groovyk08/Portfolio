@@ -34,8 +34,8 @@ function SoftSkills(props) {
                             <div className="strengthsContent">
                                 <h3>Collaborative</h3>
                                 <p>
-                                    I balance talking and listening hence
-                                    ensuring effective communication.
+                                    Teamwork makes the dream work. Collaboration
+                                    first, then work.
                                 </p>
                             </div>
                         </div>
@@ -52,8 +52,8 @@ function SoftSkills(props) {
                             <div className="strengthsContent">
                                 <h3>Work Ethic</h3>
                                 <p>
-                                    I balance talking and listening hence
-                                    ensuring effective communication.
+                                    I don't wait for deadlines, deadlines wait
+                                    for me.
                                 </p>
                             </div>
                         </div>
@@ -69,8 +69,8 @@ function SoftSkills(props) {
                             <div className="strengthsContent">
                                 <h3>Self-Motivated</h3>
                                 <p>
-                                    I balance talking and listening hence
-                                    ensuring effective communication.
+                                    I put myself into action to achieve my
+                                    goals.
                                 </p>
                             </div>
                         </div>
