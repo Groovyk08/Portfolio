@@ -1,0 +1,14 @@
+.containerForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;}
+
+.contactForm {
+  width: 50%;
+}
+
+.btn-success {
+  width: 100%;
+}

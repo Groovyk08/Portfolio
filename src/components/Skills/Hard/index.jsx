@@ -15,9 +15,9 @@ function HardSkills(props) {
                                     <div className="techCard">
                                         <img
                                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                                            alt="REACT JS"
+                                            alt="REACT"
                                         />
-                                        <h6 className="mt-2">REACT JS</h6>
+                                        <h6 className="mt-2">REACT</h6>
                                     </div>
                                 </div>
                                 <div className="col">

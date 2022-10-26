@@ -20,7 +20,7 @@ function Experiences(props) {
                                         <span className="status"></span>
                                         Full time
                                     </span>
-                                    <p>July 2019 - Present</p>
+                                    <p>July 2019 - August 2022</p>
                                 </div>
                             </div>
                         </div>

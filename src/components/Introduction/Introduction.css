@@ -34,11 +34,11 @@ a {
 }
 
 .contact {
-  background-color: #386163;
   border: none;
   min-width: 6rem;
   margin: 0.5rem;
   border-radius: 5px;
+  width: 0rem;
 }
 
 .socialIcon {

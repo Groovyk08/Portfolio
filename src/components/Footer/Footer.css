@@ -1,3 +1,8 @@
+
+footer .row {
+  align-items: center;
+}
+
 .divider {
   content: "";
   display: block;
@@ -5,4 +10,10 @@
   height: 1px;
   background: #828282;
   margin: 1rem 0;
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 4rem 1rem;
+  }
 }
